@@ -4,7 +4,7 @@ Workouts with Sqoop and Sqoop2
 ## Import Data to HDFS from MySQL (utilizing Sqoop2)  
 Using Sqoop2 for importing data to HDFS is actually pretty simple. All you need is connector, links and a job -and the shell too :) -.  
 When creating links, pay attention to link ID since sqoop2 shell will guide you for setting different parameters based on link ID.  
-E.g. when you set ID to 3 it is an HDFS link while 4 is MySQL link, 2 is Kafka
+E.g. when you set ID to 3 it is an HDFS link while 4 is a generic JBDC link, 2 is Kafka
 
   
 * Connect to the sqoop2 shell  
